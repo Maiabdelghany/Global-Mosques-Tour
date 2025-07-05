@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Aqsa mosque</title>
+    <style>
+
+        :root {
+            --main-radius: 5px;
+            --main-padding: 5px;
+        }
+
+        .container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:0.2fr 1.5fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar content1 content2 content3";
+    grid-gap: 0.2rem;
+}
+
+nav {
+    background-color: bisque;
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+main {
+    background-color: bisque;
+    grid-area: main;
+   background-position: center;
+   background-image: url('assets/al-aqsa.jpg');
+    background-size: cover;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sidebar {
+    background-color: bisque;
+    grid-area: sidebar;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    min-height: 500px;
+}
+
+    .sidebar-image {
+        max-width: 450px; 
+        max-height: 300px; 
+        width: auto;
+        height: auto;
+        border-radius: var(--main-radius);
+    }
+
+    a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+    outline: none;
+    cursor: pointer;
+    }
+a:hover {
+    color: brown;
+    font-size: 1.1em; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    transform: scale(1);
+}
+
+
+#content1 {
+    background-color: bisque;
+    grid-area: content1;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    min-height: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    text-align: center;
+}
+
+#content2 {
+    background-color: bisque;
+    grid-area: content2;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    min-height: 450px;
+}
+
+
+#content3 {
+    background-color: bisque;
+    grid-area: content3;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    min-height: 450px;
+}
+
+@media only screen and (max-width:550px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1><ins>Al-Aqsa Mosque</ins></h1>
+        </nav>
+        <main>
+            <img src="assets/al-aqsa.jpg" alt="mosque">
+        </main>
+        <div id="sidebar">
+            <img src="assets/alaqsa.jpg" alt="al aqsa" class="sidebar-image">
+            <h1><ins>Construction and Foundation</ins></h1>
+           <p>Al-Aqsa Mosque was built in the 7th century CE (after the Hijra) during the Umayyad Caliphate and is considered one of the oldest mosques in the world. It is believed that the mosque was established by the Umayyad Caliph Abd al-Malik ibn Marwan</p>
+           <h1><ins>Visitor Guidelines</ins></h1>
+             <h2>Respectful Behavior:</h2>
+           <p> Visitors are expected to show respect for the sacredness of the mosque. Maintain a peaceful demeanor and avoid any disruptive behavior.</p>
+            <h2>Dress Code:</h2>
+           <p>It is important to dress modestly when visiting. For men, long pants and sleeved shirts are recommended. For women, wearing long skirts or dresses, along with a headscarf, is advised.</p>
+           <h1><ins>Blog Articles</ins></h1>
+           <ul>
+                <li><a href="https://www.as-salaamfoundation.co.uk/why-is-al-aqsa-mosque-so-important-to-muslims/" target="_blank">The Importance of Al-Aqsa Mosque in Islam</a></li>
+                <li><a href="https://firmisrael.org/learn/10-facts-jerusalem/" target="_blank">10 Key Points about the History of Jerusalem</a></li>
+                <li><a href="https://islamicart.museumwnf.org/database_item.php?id=monument;ISL;pa;Mon01;3;en" target="_blank">Islamic Art and Its History</a></li>
+          </ul>
+        </div>
+        <div id="content1">
+            <h1><ins>Religious Significance</ins></h1>
+               <h2>Sacred Location:</h2><p> Al-Aqsa Mosque is located in Jerusalem and is considered the third holiest site in Islam,<br /> 
+                following the Kaaba in Mecca and the Prophet's Mosque in Medina.<br /></p>
+               <h2>First Qibla:</h2><p> It was the first qibla (direction of prayer) for Muslims before it was changed to the Kaaba.<br /></p>
+                <h2> Spiritual Symbolism:</h2> <p>The mosque is believed to be the place from which Prophet.</p>
+        </div>
+        <div id="content2">
+           <h1><ins>Historical Importance</ins></h1>
+           <h2>Long History:</h2><p> The mosque has a history that spans over 1,400 years, witnessing significant historical and religious events.<br /></p>
+         <h2>Cultural Heritage:</h2><p> It reflects a rich blend of various architectural styles, embodying Islamic art and culture through the centuries.<br /></p>
+        <h2> Conflict Center:</h2><p> Al-Aqsa is a symbol of resilience and identity for Palestinians, often being at the center of the Israeli-Palestinian conflict.</p>
+        </div>
+        <div id="content3">
+            <h1><ins>Architectural Features</ins></h1>
+               <h2>Unique Architecture:</h2><p>The mosque features stunning architectural designs, including the iconic golden dome that is a prominent landmark.<br /></p>
+              <h2>Expansive Grounds:</h2><p>It includes various structures, such as smaller mosques and schools, providing space for a large number of worshippers.<br /></p>
+               <h2> Artistic Elements:</h2><p> The mosque is adorned with intricate decorations, mosaics, and calligraphy, showcasing the artistic heritage of the Islamic world.</p>
+        </div>
+        </div>
+</body>
+</html>

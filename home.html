@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globel Mosques Tour</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"rel="stylesheet"/>
+
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAACUCAMAAACz6atrAAAAllBMVEX///8sIx4AAAAKAADt7e2joqIrJB4cEw6+u7kGAAD39/fLx8r+//3x8fEeGRjAwMDRz9F4eHgsIB0oHhgRAACAf30xKCMtISIgFA0XAADl5eM4Ly9APToZBwBIQj/b2tqVk5MWFBKtqqsoFhA7NTIZDQBLSEdwb25mZGKxsK1XU1KLh4VgW1skGxE/OjF6dHEsKSgiCwcyOhG1AAAK1klEQVR4nO2ca6OiLBeGFU/pjjKxHjIta2sHq2nm//+517OAeCprvx/2/WHGtoqXC1jAAhSEX/3qV6MKOrtUjgx/GqWUIZuH6+3oBptVqs0mcI/n68GUjR/lcubKwgVACu93ZCExU3x0v4cSAO5DmTs/wjV1lFvwbeMCqS6E7e/g5jvTz4IZpv8H2PdmrpIPrcEf3/xc9hqHSLS/O7lKPhtFh8/QmUtgdxuMxQNL8/1kJ2QPBMvkodN76cwIYPUpNFFUMYjeR+c8QvwkWCasPd7jVOB1/RpZSmcv39BsTI7Sy2SJpO1kZDJ5ObhuNgnZD3lMtHlgP1sFOFoH89HIDP/7WxyPTRW/sT+SL5bPYDSuQuA2Sr7utt7oaKKoubvX0b6k1z0HTwi8XOgOs7HqZw1udngRbfyiVgkor6Ap+zeiieLefwENWG9ls8DTcAetSmbMCkGkpT2ZrReirGmPcDS0kEwLXJ5BM4lhCnLhaSzLaTfoVimr2tdwNEcknEfox6gjsXlzwScMh9BgJwy3JIu2E4zbOI4ORVBwZsQfsDuw+ZouyfJ1P8Z/UsIxmns1zgJBiMgXDxfDRrCKTnoPkHhweRw3DJJe+YRMS9UHVVbHtlQ2PWE1hrOzcJo+2YdWLWlAkYOUzcXvW9rb8p8b/NGyr0lSxpl6AD72L3L+mrxT9dL0hHlXplqiJHbZNu99XD2q8K79vmg7BgJn/tFZtddU1VpfPKu9wqBVln0TZpgLeuYqY/D4mZl7hF1eBJ+Ns9Z+CYqy3DOZd8C3fp30g00PDlCQl4ZFh/sNJ8Ict2cqXmRJwYB6T9Wye3XmDJUxDzrmZ67tbSpyHUF2222Lr3laR/YhVp8xda064lthUNw62sInYdphW8srXNmZvc6+NgFVcgL2zb1lfmrSzpZWwdbKrIq4GNRfawOkv93VwffY59t+fspsH3CBJFeMtsiEKnpFr0Nhc0f1fC4PIVmrFRi96GLt6ucI5VlfyyxSSCuMM6nb1+uKMXGcf9n9k/dqSy2MzWsYRt0ghCx1Xzyfk/dl/jQI/q2bphxIwlmrZw10AIAetFyhIq1onL7qbOhvW8s1FS6cHAFFGTHa2bqlolnhKUxOncGtPs64/Shb1ObjdoDz8J5sqNDTbGprq7rkhdn6sHm2F2yj2+0WbYP4uIGviy18tLD95T28iw2FwDsd5jsHxvUUOrv54aSBkIfXxWaJzS3+JBzOhtYuZ1rDXG7XdbpONq85Fnzl+s02NgQChe8yncMWsHQdbHGHfclNK5Yc3QeyhRulORcMZcN0XLrY4i5Pk4vb8dvLRjZkn9v7+c5Jp27oZBPtppkbRR/EhmaXzoHlZUYWk242iT8cnNIj2k42HPSZnTJdItFutu9I4L9vQ7SNz4aDflNTsluVlG42EfDZ2OFVKxve9h1SEpGVPmz8puHSMPfCY0M9eqmFnE3hS3qwefx4HN+7cdksbUhgyili7T3YGjxcU/SPw+YNC4UepP5sZ14CcoT65qnX1ibztPR6sql877trGlrW2cDQySiYNV897IYCXmkxuQ0Ww5aZrXeOlg1aNorowSZ+87zml03k6WrFZ9M0DTU3ejXJcr4qSU7H8T3YVJs3zTUhWywtF49tQEUo2ZIgC8vGL90Sz4kcpBpZyrYC86mRjO4KNpB4biOTkB8K+UF1xijZ0uNpaid1JufnKrutaDab9+bVyDSlmhV9fw3MYfwMGeZs0iku23KudCgf/19YCaa/ynPE8SOpqmjvZLdCEySvmXCh5IBg8zlsZYQCFXclLxX/yNlkmLEBs0JLqZrY4h/E8dyOE/NKtnjsnDMlhiBs5/FiNmXUHhEXrxKYuLwZcZJQTtjCwEkfb2RQSZ7V2JIfMGeDBoTJceKitDBmSxODXyB5bS1DI/M0XPDYCrsRNk7QtKwuGDJ0EjZpIcgFTAbQzmYUpxYohtlnV8KYDYkzosJVbDy/Xs6AkflfscXppWzAJ2pfkkFGyQYZNrm60pANHydsWT2dxmw4e3ONCQDhE4dt0cA2y9kSu4ka1icEm0GxUXYr/lKwwUl4j/O0YtPyV0d0bD3ksS0b2BBht/i3bj7JZuImNjpPeeWtrKeYqAv18raXG/O0nc2ZYTpPV9w8DXmdpNK/kT4ElWwwY/P2sF4XYM4GyV/5X4q6AOF/KL7byfMgqQulgyfdLzfuq9C+N4u7pD5kbsDMK82y0pw4lPhZ2R8zH1L8zOw2zSXkJ9IzxkpNfEh2ZezfMh+yYisq1/deqoAj2WZpmn1eZHokXkBbLJcLQkv2Z/a3TNSZVdxd3p/yX2ds5dnD+F6d155+EeNcRLSnWLMlXQd6iHGakIc1jCUA9ERaUjixlkQsJSzpwMZefAbnd+P4z6EW/wNsDae9apTeBYCHS6dLFqG4xZV4/RBq0pvoI+WHdJPMNNDJNcyfGtR1lbrm9d92f961umeI7itevzceL9QvDaV3ijMHhY68IblxrrN5S+Wd4ow6EX9CcMleqYqvrwNrlanX+r6Y1ywkDq525ZvZvups6TKIujjDi4+zqeXghJbxf8AmAm5xmwpubd3/x9nQpiH+dq1Nk32crXGG16zFVD/O1vhApxYR4Vw6lZs3wMDm/U9TR67fVmNDm8ZgaG2yvca2e7hBsD3x2hV4idzAjQ48vN1jGwTug72txoZPjVMCtaUnDJtxBWHSqwvBopaGuQLJqTv4r9ZYV7ddafAaW9g8SynvW9mm53ItkH1icmiOijAUxoyxp6eyjtk36jaGTbX2LfHtc9jG5hOLWpgKBXViASQTniOn2enbWLZytQdPc9DCVsWUE4A1BUC5HzpsAP8RYzwkkpZh2UDbtgvILHeh2BSq3ZB8Epuq4ckCG8JslGeiVvQybKhtXmAq+PSUFsVGz5dT9jfp8S8iG0VmqVvUzPavfWnNrjFPpwK94Aa5xG1zqpdorcm82dK3/Uc0Smw97ZgYOFNPodg2LWyUuZ9k44fvScNRheqjbN3r807keqQPsqmdZouvJ5P6pN1Qj34FOXX0QbYeZot9FeF/P8jWbzUo4eM/xmatG1c4UHKCvNlmxoAD2MjbamyVYrYMTrV6zmIT6+ZCf1Lqa8OsXp1X53xqeaqFr9W5Od1hVdUv4rbSmba2pJSiwgzWPyJCINJCdnPwIKzO1fY4EimWvQBv2xeN7nF8QC1d8bou4MWVbkOkWtKgXWSPdXeao8nr49oqycf37ALkafCmlB1nUeh7hNDg3eOcBbjv0TM7tPzPFLnu5dA8XT9hOdCvrWJlnN6xYZdWeH5y47Nxkt68j9I+P/0lAHgcY2tRs7zjCx8pMBbjfIyAL+n00vcTjNvbtsda4NmyVmqUHWM8UYGBJ6XUlumOIfTaRuxCX8F4e3YL4c1I0dpdZI9b6Kz1cYSvEmQyrt6Y3RLkLcf87M/cHa9K2O7I0Xe40MYxHdJe82pcmccx2n59+5Zv/cADbtrQ0ddmnqaM+j0Yks4PXil29l//XWSJdlfwpO3QGixHcxwNMvwjGF4rsH70P/E9PXkSAc5mmEZZyAbR5Z25ScnxI2Q3rQemdbdR5H/283nQVCIA/rXtFItHdxiAo2L+xMcR4WR5DNDaw6wFVfWOPRsFx+XkJz/a6MwP/vmYrjkCuiRJenpkb8/+5Yc+hEjLMKC8MyeXi6Iol8vE3MnQ+NkPSP7qV7/6lP4HVRvuCcOd8HYAAAAASUVORK5CYII=" type="image/png">
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #000000;
+    --primary-color-dark: #ecc19c;
+    --secondary-color: #1e8471;
+    --text--dark: #282d31;
+    --text-ligth: #767268;
+    --extra-ligth: #282828;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: #ffffff;
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease 0.40s;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: #221314;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 44px;
+}
+
+#menu-icon {
+    color: #fff;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 80px 18%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("assets/Background.jpg") no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: #fff;
+    
+  font-family: "Paytone One", serif;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+
+}
+
+.text-home p {
+    color: #ffffffbf;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+.home-btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #ffffffbf;
+    color: #000000;
+    border-radius: 4px;
+    transition: ease .40s;
+    margin-top: 20px;
+}
+
+.home-btn:hover {
+    background: white;
+    transform: scale(1.1);
+
+}
+
+header.sticky {
+    background: #fff;
+    padding: 10px 18%;
+    box-shadow: rgba(33,35,38,0.1) 0px 10px 10px -10px;
+}
+
+.sticky .logo {
+    color: #000000;
+}
+
+.sticky .navbar a{
+    color: #000000;
+}
+
+.destination {
+    padding-top: 10px; 
+    padding-left: 5px;
+    overflow: hidden; 
+}
+
+.section_container{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    padding: 5rem 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.section_title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-left: 200px;
+}
+
+.section_subtitle{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 180px;
+    font-size: 1rem;
+}
+
+header .section_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: var(--extra-ligth);
+}
+
+.header_content h1 {
+    color: aliceblue;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 5rem;
+}
+
+.header_content p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.joureny_contatiner {
+    background-color: var(--secondary-color);
+}
+
+.journey_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.country_card {
+    width: 450px;
+    height: auto;
+    background-color: var(--extra-ligth);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(0, 0, 0 ,0.1);
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0.5rem;
+    color: #000000;
+}
+
+.country_card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.country_card:hover {
+    transform: scale(1.05);
+}
+
+.country_name{
+    padding: 0.75rem 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-ligth);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.country_name i {
+    font-size: 1.4rem;
+}
+
+.country_name span {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+    .nav_links {
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+
+
+    header .section_container{
+        justify-content: flex-start;
+    }
+    .header_content{
+        max-width: 400px;
+        align-items: flex-start;
+    }
+
+.header_content p {
+    text-align: left;
+ }
+
+ .journey_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+ }
+}
+
+
+</style>
+
+</head>
+<body>
+   <!--header-->
+   <header>
+    <a href="#" class="logo">Travel</a>
+    <div class="bx bx-menu-icon" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Travel Around <br> Mosques <br></h1>
+            <p>Enjoy your journeys to mosques around the world,
+              where you can explore stunning Islamic architecture<br> and experience the unique spiritual moments these sacred places offer.</p>
+            <a href="#" class="home-btn">Read More</a>
+        </div>
+
+    </section>
+
+   <!--destination section-->
+   <section class="destination" id="destination">
+
+   <div class="journey_container">
+    <div class="section_container">
+       <h2 class="section_title">Choose Your Destination</h2>
+       <p class="section_subtitle">Your Guide to Exploring Unique Mosques</p>
+       <div class="journey_grid">
+           <div class="country_card">
+            <a href="al masjid al-nabawi.html">
+             <img src="assets/Al Masjid an Nabawi.jpg" alt="country" width="450" height="300" />
+              <div class="country_name">
+                  <i class="ri-map-pin-2-fill"></i>
+                  <span>Medina, Saudi Arabia</span>
+              </div>
+              </a>
+           </div>
+           <div class="country_card">
+               <a href="AI AQSA MOSQUE.html">
+               <img src="assets/Al-Aqsa Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Jerusalem, Palestine</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+               <a href="amr ebn al as mosque.html">
+               <img src="assets/Amr Ibn Al-Aas Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Cairo, Egypt</span>
+                </div>
+               </a>
+             </div>
+             <div class="country_card">
+               <a href="cologne1.html">
+               <img src="assets/Cologne Central Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Cologne, Germany</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+                <a href="Nur Sultan Mosque.Menna.html">
+               <img src="assets/Hazart Sultan Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Astana, Kazakhstan</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+               <a href="al masjad el haram.html">
+               <img src="assets/Masjid al-Haram.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Mecca, Suadi Arabia</span>
+                </div>
+               </a>
+             </div>
+             <div class="country_card">
+                <a href="putra mosque.html">
+               <img src="assets/Putra Mosque.jpeg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Putrajaya, Malaysia</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+                <a href="al-azher mosrue.html">
+               <img src="images/Al-Azhar Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Cairo,Egypt</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+                <a href="Sheikh Zayed Mosque.html">
+               <img src="images/Sheikh Zayed Grand Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Abu Dhabi, UAE</span>
+                </div>
+                </a>
+             </div>
+             <div class="country_card">
+                <a href="Sultan Ahmed Mosque.html">
+               <img src="images/The Blue Mosque.jpg" alt="country" width="450" height="300" />
+                <div class="country_name">
+                    <i class="ri-map-pin-2-fill"></i>
+                    <span>Istanbul, Turkiye</span>
+                </div>
+                </a>
+             </div>
+      </div>
+    </div>
+  </div>
+  </section>
+   <!--link to js-->
+   <script>
+
+    const header = document.querySelector("header");
+    
+    window.addEventListener("scroll", function() {
+        header.classList.toggle("sticky", this.scrollY > 0);
+    });
+    
+    
+    </script>
+
+   <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
